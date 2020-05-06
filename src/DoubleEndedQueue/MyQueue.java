@@ -42,4 +42,10 @@ public class MyQueue {
         else System.out.println("List is empty...");
     }
 
+
+    public void insertAtFront(DoubleEndedQueueNode NewNode){
+        NewNode.setNext(front);
+        no_of_Element ++;
+    }
+
 }
