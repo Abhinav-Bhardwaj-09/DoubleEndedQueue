@@ -10,5 +10,7 @@ import QueueNode.DoubleEndedQueueNode;
  */
 
 public class MyQueue {
-
+    DoubleEndedQueueNode front ;
+    DoubleEndedQueueNode rear ;
+    int no_of_Element = 0 ;
 }
