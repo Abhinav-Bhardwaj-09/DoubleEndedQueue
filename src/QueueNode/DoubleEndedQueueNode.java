@@ -9,4 +9,5 @@ package QueueNode;
 
 public class DoubleEndedQueueNode {
     private int data;
+    private DoubleEndedQueueNode next ;
 }
