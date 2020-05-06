@@ -72,4 +72,18 @@ public class MyQueue {
         }
     }
 
+    public void displayFromEnd(){
+        DoubleEndedQueueNode temp = front;
+        int[] arr = new int[no_of_Element];
+        int i =0;
+        System.out.print("Queue is : ");
+        while ( temp!= null ){
+            arr[i] = temp.getData();
+            i++;
+            temp = temp.getNext();
+        }
+        for(int k = (i-1) ; k >= 0 ; k-- ) System.out.print(arr[k]);
+    }
+
+
 }
