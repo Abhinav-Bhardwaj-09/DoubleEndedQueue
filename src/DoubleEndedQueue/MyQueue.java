@@ -19,6 +19,11 @@ public class MyQueue {
         rear = null;
     }
 
+    public void insertAtFront(DoubleEndedQueueNode NewNode){
+        NewNode.setNext(front);
+        no_of_Element ++;
+    }
+
     public void insertAtRear(DoubleEndedQueueNode NewNode){
         no_of_Element ++ ;
         if ( front == null ){
@@ -43,9 +48,6 @@ public class MyQueue {
     }
 
 
-    public void insertAtFront(DoubleEndedQueueNode NewNode){
-        NewNode.setNext(front);
-        no_of_Element ++;
-    }
+
 
 }
