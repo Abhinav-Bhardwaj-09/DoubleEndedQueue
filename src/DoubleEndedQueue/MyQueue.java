@@ -34,4 +34,12 @@ public class MyQueue {
         rear = NewNode;
     }
 
+    public void deleteFromFront(){
+        if ( front != null) {
+            front = front.getNext();
+            no_of_Element -- ;
+        }
+        else System.out.println("List is empty...");
+    }
+
 }
