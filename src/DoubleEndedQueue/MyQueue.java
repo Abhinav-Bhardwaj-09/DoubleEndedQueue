@@ -63,5 +63,13 @@ public class MyQueue {
     }
 
 
+    public void displayFromFront(){
+        DoubleEndedQueueNode temp = front;
+        System.out.print("Queue is : ");
+        while ( temp!= null ){
+            System.out.print(temp.getData() + " ");
+            temp = temp.getNext();
+        }
+    }
 
 }
