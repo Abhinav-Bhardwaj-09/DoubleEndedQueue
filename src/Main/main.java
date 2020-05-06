@@ -18,5 +18,9 @@ public class main {
         Scanner sc = new Scanner(System.in);
         int val, choice;
         boolean flag = true;
+        System.out.print("Enter the data  :  ");
+        val = sc.nextInt();
+        DoubleEndedQueueNode node = new DoubleEndedQueueNode(val);
+        MQ.insertAtFront(node);
     }
 }
