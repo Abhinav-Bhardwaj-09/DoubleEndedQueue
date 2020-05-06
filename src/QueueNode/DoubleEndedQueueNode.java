@@ -10,4 +10,11 @@ package QueueNode;
 public class DoubleEndedQueueNode {
     private int data;
     private DoubleEndedQueueNode next ;
+
+
+    public DoubleEndedQueueNode(int data) {
+        this.data = data;
+        next = null;
+    }
+
 }
