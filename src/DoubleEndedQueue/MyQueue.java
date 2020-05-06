@@ -18,4 +18,20 @@ public class MyQueue {
         front = null;
         rear = null;
     }
+
+    public void insertAtRear(DoubleEndedQueueNode NewNode){
+        no_of_Element ++ ;
+        if ( front == null ){
+            NewNode.setNext(null);
+            front = NewNode;
+        }
+        else{
+            DoubleEndedQueueNode temp = front ;
+            while ( temp.getNext() != null) temp = temp.getNext();
+            NewNode.setNext(temp.getNext());
+            temp.setNext(NewNode);
+        }
+        rear = NewNode;
+    }
+
 }
