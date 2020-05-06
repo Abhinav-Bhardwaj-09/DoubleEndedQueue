@@ -47,6 +47,20 @@ public class MyQueue {
         else System.out.println("List is empty...");
     }
 
+    public void deleteFromRear(){
+        if (front == rear) front = rear = null;
+        else {
+            no_of_Element --;
+            DoubleEndedQueueNode temp = front;
+            DoubleEndedQueueNode previous = null ;
+            while (temp.getNext() != null) {
+                previous = temp;
+                temp = temp.getNext();
+            }
+            previous.setNext(null);
+            rear = previous;
+        }
+    }
 
 
 
