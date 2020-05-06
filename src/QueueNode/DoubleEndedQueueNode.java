@@ -24,5 +24,12 @@ public class DoubleEndedQueueNode {
         this.data = data;
     }
 
+    public DoubleEndedQueueNode getNext() {
+        return next;
+    }
+
+    public void setNext(DoubleEndedQueueNode next) {
+        this.next = next;
+    }
 
 }
