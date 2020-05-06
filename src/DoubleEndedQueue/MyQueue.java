@@ -84,6 +84,4 @@ public class MyQueue {
         }
         for(int k = (i-1) ; k >= 0 ; k-- ) System.out.print(arr[k]);
     }
-
-
 }
