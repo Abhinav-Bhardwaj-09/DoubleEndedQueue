@@ -13,4 +13,9 @@ public class MyQueue {
     DoubleEndedQueueNode front ;
     DoubleEndedQueueNode rear ;
     int no_of_Element = 0 ;
+
+    public MyQueue() {
+        front = null;
+        rear = null;
+    }
 }
