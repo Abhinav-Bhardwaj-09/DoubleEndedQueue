@@ -41,6 +41,7 @@ public class main {
             else if (choice == 2 ) MQ.deleteFromFront();
             else if (choice == 3 ) MQ.displayFromEnd();
             else if (choice == 4) MQ.deleteFromFront();
+            else if (choice == 5) MQ.deleteFromRear();
             }
 
 
