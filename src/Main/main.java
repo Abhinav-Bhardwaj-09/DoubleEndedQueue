@@ -38,6 +38,7 @@ public class main {
                 node = new DoubleEndedQueueNode(val);
                 MQ.insertAtFront(node);
             }
+            else if (choice == 2 ) MQ.deleteFromFront();
             }
 
 
