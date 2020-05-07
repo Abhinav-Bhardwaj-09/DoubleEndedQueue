@@ -43,7 +43,7 @@ public class main {
             else if (choice == 4) MQ.deleteFromFront();
             else if (choice == 5) MQ.deleteFromRear();
             else if (choice == 6) flag = false;
-
+            else System.out.println("Warning !!! Please enter a valid input...");
         }
 
 
