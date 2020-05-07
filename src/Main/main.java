@@ -29,6 +29,7 @@ public class main {
             System.out.println("Press 3 : To display the queue from end / rear.");
             System.out.println("Press 4 : To perform dequeue on queue from beginning / front.");
             System.out.println("Press 5 : To perform dequeue on queue from end / rear.");
+            System.out.println("Press 6 : To exit.");
 
 
         }
