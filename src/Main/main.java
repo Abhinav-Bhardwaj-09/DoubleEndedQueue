@@ -33,6 +33,8 @@ public class main {
             System.out.print("Enter your choice : ");
             choice = sc.nextInt();
             if (choice == 1) {
+                System.out.print("Enter the data  :  ");
+            }
 
 
         }
