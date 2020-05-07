@@ -36,6 +36,7 @@ public class main {
                 System.out.print("Enter the data  :  ");
                 val = sc.nextInt();
                 node = new DoubleEndedQueueNode(val);
+                MQ.insertAtFront(node);
             }
 
 
