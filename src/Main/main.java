@@ -34,6 +34,7 @@ public class main {
             choice = sc.nextInt();
             if (choice == 1) {
                 System.out.print("Enter the data  :  ");
+                val = sc.nextInt();
             }
 
 
