@@ -22,5 +22,10 @@ public class main {
         val = sc.nextInt();
         DoubleEndedQueueNode node = new DoubleEndedQueueNode(val);
         MQ.insertAtFront(node);
+
+        while (flag) {
+            System.out.println("Press 1 : To enter one more element.");
+            System.out.println("Press 2 : To display the queue from beginning / front.");
+
     }
 }
