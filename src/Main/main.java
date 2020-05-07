@@ -37,15 +37,13 @@ public class main {
                 val = sc.nextInt();
                 node = new DoubleEndedQueueNode(val);
                 MQ.insertAtFront(node);
-            } else if (choice == 2) MQ.deleteFromFront();
+            }
+            else if (choice == 2) MQ.deleteFromFront();
             else if (choice == 3) MQ.displayFromEnd();
             else if (choice == 4) MQ.deleteFromFront();
             else if (choice == 5) MQ.deleteFromRear();
             else if (choice == 6) flag = false;
             else System.out.println("Warning !!! Please enter a valid input...");
         }
-        }
-
-
-        }
+    }
 }
