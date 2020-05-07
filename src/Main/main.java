@@ -31,6 +31,7 @@ public class main {
             System.out.println("Press 5 : To perform dequeue on queue from end / rear.");
             System.out.println("Press 6 : To exit.");
             System.out.print("Enter your choice : ");
+            choice = sc.nextInt();
 
 
         }
