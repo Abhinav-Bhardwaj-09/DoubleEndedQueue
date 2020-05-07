@@ -39,6 +39,7 @@ public class main {
                 MQ.insertAtFront(node);
             }
             else if (choice == 2 ) MQ.deleteFromFront();
+            else if (choice == 3 ) MQ.displayFromEnd();
             }
 
 
