@@ -35,6 +35,7 @@ public class main {
             if (choice == 1) {
                 System.out.print("Enter the data  :  ");
                 val = sc.nextInt();
+                node = new DoubleEndedQueueNode(val);
             }
 
 
