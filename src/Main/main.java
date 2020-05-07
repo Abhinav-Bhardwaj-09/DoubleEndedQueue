@@ -32,6 +32,7 @@ public class main {
             System.out.println("Press 6 : To exit.");
             System.out.print("Enter your choice : ");
             choice = sc.nextInt();
+            if (choice == 1) {
 
 
         }
